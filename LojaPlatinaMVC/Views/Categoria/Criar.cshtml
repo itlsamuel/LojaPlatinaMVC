@@ -1,0 +1,22 @@
+﻿@model Categoria
+
+<form method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-3">
+			<h2 class="text-black">Categoria</h2>
+			<hr/>
+		</div>
+		<div class="row mb-3">
+			<label asp-for="Name"></label>
+			<input asp-for="Name" class="form-control"/>
+		</div>
+		<div class="row mb-3">
+			<label asp-for="MostrarPedido"></label>
+			<input asp-for="MostrarPedido" class="form-control"/>
+		</div>
+		<button class="btn btn-primary" type="submit">Criar</button>
+	</div>
+	<a asp-action="Index" asp-controller="categoria">Voltar</a>
+
+</form>
+

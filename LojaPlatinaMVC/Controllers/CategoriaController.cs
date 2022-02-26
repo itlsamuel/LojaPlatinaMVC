@@ -18,5 +18,10 @@ namespace LojaPlatinaMVC.Controllers
             IEnumerable<Categoria> categorias = _context.categorias;
             return View(categorias);
         }
+        [HttpGet]
+        public IActionResult Criar()
+        {
+            return View();
+        }
     }
 }
