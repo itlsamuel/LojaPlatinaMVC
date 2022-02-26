@@ -10,17 +10,17 @@
 		<div class="row mb-3">
 			<label asp-for="Name"></label>
 			<input asp-for="Name" class="form-control"/>
-			<span asp-validation-for="Name" class="text-danger"></span>
+			<span asp-validation-for="Name" class="text-black"></span>
 
 		</div>
 		<div class="row mb-3">
 			<label asp-for="MostrarPedido"></label>
 			<input asp-for="MostrarPedido" class="form-control"/>
-			<span asp-validation-for="MostrarPedido" class="text-danger"></span>
+			<span asp-validation-for="MostrarPedido" class="text-black"></span>
 		</div>
-		<button class="btn btn-primary" type="submit">Atualizar</button>
+		<button class="btn btn-dark" type="submit">Atualizar</button>
 	</div>
-	<a asp-action="Index" asp-controller="categoria">Voltar</a>
+	<a class="text-black" asp-action="Index" asp-controller="categoria">Voltar</a>
 
 </form>
 

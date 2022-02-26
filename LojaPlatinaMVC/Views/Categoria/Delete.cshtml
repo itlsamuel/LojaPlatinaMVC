@@ -1,8 +1,4 @@
 ﻿@model Categoria
-@if(@TempData["sucess"]!=null)
-{
-	<h2> TempData["sucess"]</h2>
-}
 
 <form method="post">
 	<div class="border p-3 mt-4">
@@ -10,19 +6,20 @@
 			<h2 class="text-black">Categoria</h2>
 			<hr/>
 		</div>
+		<input type="hidden" asp-for="Id"/>
 		<div asp-validation-summary=All></div>
 		<div class="row mb-3">
 			<label asp-for="Name"></label>
-			<input asp-for="Name" class="form-control"/>
-			<span asp-validation-for="Name" class="text-danger"></span>
+			<input disabled asp-for="Name" class="form-control"/>
+			<span asp-validation-for="Name" class="text-black"></span>
 
 		</div>
 		<div class="row mb-3">
 			<label asp-for="MostrarPedido"></label>
-			<input asp-for="MostrarPedido" class="form-control"/>
-			<span asp-validation-for="MostrarPedido" class="text-danger"></span>
+			<input disabled asp-for="MostrarPedido" class="form-control"/>
+			<span asp-validation-for="MostrarPedido" class="text-black"></span>
 		</div>
-		<button class="btn btn-dark" type="submit">Criar</button>
+		<button class="btn btn-dark" type="submit">Delete</button>
 	</div>
 	<a asp-action="Index" asp-controller="categoria">Voltar</a>
 
