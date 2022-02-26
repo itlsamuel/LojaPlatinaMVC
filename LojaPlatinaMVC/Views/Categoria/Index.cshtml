@@ -25,6 +25,9 @@
             <th>
                 Mostrar Pedido
             </th>
+            <th>
+                Acao
+            </th>
         </tr>
     </thead>
 
@@ -39,6 +42,9 @@
             <th>
                 @item.MostrarPedido
             </th>
+            <td role="group">
+                <a asp-action="Edit" asp-controller="categoria" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+            </td>
         </tr>
         }
     </tbody>
