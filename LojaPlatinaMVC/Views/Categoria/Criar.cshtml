@@ -1,7 +1,8 @@
 ﻿@model Categoria
-@if(@TempData["sucess"]!=null)
+
+@if(TempData["success"]!=null)
 {
-	<h2> TempData["sucess"]</h2>
+	<h2>@TempData["success"]</h2>
 }
 
 <form method="post">
@@ -24,7 +25,7 @@
 		</div>
 		<button class="btn btn-dark" type="submit">Criar</button>
 	</div>
-	<a asp-action="Index" asp-controller="categoria">Voltar</a>
+	<a class="btn-outline-dark" asp-action="Index" asp-controller="categoria">Voltar</a>
 
 </form>
 
