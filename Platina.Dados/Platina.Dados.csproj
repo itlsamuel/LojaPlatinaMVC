@@ -15,8 +15,4 @@
     <ProjectReference Include="..\Platina.Models\Platina.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Elementos\Repositorio\" />
-  </ItemGroup>
-
 </Project>
