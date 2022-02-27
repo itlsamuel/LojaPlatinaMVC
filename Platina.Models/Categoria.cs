@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace LojaPlatinaMVC.Models
+namespace Platina.Models
 {
     public class Categoria
     {

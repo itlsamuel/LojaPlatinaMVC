@@ -1,5 +1,5 @@
-using LojaPlatinaMVC.Data;
 using Microsoft.EntityFrameworkCore;
+using Platina.Dados;
 
 var builder = WebApplication.CreateBuilder(args);
 

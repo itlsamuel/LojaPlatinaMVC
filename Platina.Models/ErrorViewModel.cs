@@ -1,4 +1,4 @@
-namespace LojaPlatinaMVC.Models
+namespace Platina.Models
 {
     public class ErrorViewModel
     {

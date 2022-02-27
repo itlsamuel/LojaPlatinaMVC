@@ -1,7 +1,7 @@
-﻿using LojaPlatinaMVC.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Platina.Models;
 
-namespace LojaPlatinaMVC.Data
+namespace Platina.Dados
 {
     public class AplicacaoDbContext : DbContext
     {

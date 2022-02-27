@@ -16,4 +16,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Platina.Dados\Platina.Dados.csproj" />
+    <ProjectReference Include="..\Platina.Models\Platina.Models.csproj" />
+  </ItemGroup>
+
 </Project>

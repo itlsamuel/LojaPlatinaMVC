@@ -1,5 +1,5 @@
-﻿using LojaPlatinaMVC.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Platina.Models;
 using System.Diagnostics;
 
 namespace LojaPlatinaMVC.Controllers
